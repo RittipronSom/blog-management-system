@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS blog_management_system
+CREATE DATABASE IF NOT EXISTS blog_management
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
-USE blog_management_system;
+USE blog_management;
 
 CREATE TABLE IF NOT EXISTS users (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT,
