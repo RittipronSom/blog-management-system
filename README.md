@@ -1,6 +1,6 @@
 # Blog
 
-> แพลตฟอร์มเขียนและอ่านบทความแบบมินิมอล — React · Node.js · MySQL
+> Blog Management System — React · Node.js · MySQL
 
 ---
 
@@ -14,7 +14,7 @@ Blog Management System คือเว็บแอปสำหรับจัด
 | -------- | ----------------------------------- |
 | Frontend | React 19, Vite, React Router        |
 | Backend  | Node.js, Express 5, JWT             |
-| Database | MySQL                               |
+| Database | MySQL(XAMPP)                        |
 
 ## Features
 
