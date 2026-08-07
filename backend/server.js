@@ -6,6 +6,7 @@ const authRoutes = require("./routes/authRoutes");
 const blogRoutes = require("./routes/blogRoutes");
 const commentRoutes = require("./routes/commentRoutes");
 const userRoutes = require("./routes/userRoutes");
+const notificationRoutes = require("./routes/notificationRoutes");
 
 const authMiddleware = require("./middleware/authMiddleware");
 const roleMiddleware = require("./middleware/roleMiddleware");
@@ -28,6 +29,8 @@ app.use("/api/blogs", blogRoutes);
 app.use("/api/comments", commentRoutes);
 
 app.use("/api/users", userRoutes);
+
+app.use("/api/notifications", notificationRoutes);
 
 app.get(
     "/api/test-auth",
