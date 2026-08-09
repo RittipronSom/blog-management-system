@@ -14,7 +14,7 @@ Blog Management System คือเว็บแอปสำหรับจัด
 | -------- | ----------------------------------- |
 | Frontend | React 19, Vite, React Router        | 
 | Backend  | Node.js, Express 5, JWT             |
-| Database | MySQL(XAMPP)                        |
+| Database | MySQL(MySQL (Aiven, managed cloud)) |
 
 ## Features
 
@@ -65,6 +65,7 @@ npm run dev
 ```
 
 API: `http://localhost:5000`
+Deployment : `https://blog-management-backend-05sk.onrender.com `
 
 ### 3. Frontend
 
@@ -74,8 +75,8 @@ cp .env.example .env
 npm install
 npm run dev
 ```
-
-App: `http://localhost:5173`
+App Deployment: `https://blog-management-system-rho.vercel.app` 
+App: `http://localhost:3001`
 
 ## API Endpoints
 
@@ -98,9 +99,10 @@ App: `http://localhost:5173`
 
 | Service  | URL |
 | -------- | --- |
-| Frontend | —   |
-| Backend  | —   |
-| Admin    | `/admin` |
+| Frontend(vercel) | `https://blog-management-system-rho.vercel.app/login`   |
+| Backend(render)  | `https://blog-management-backend-05sk.onrender.com`     |
+| Admin    | `https://blog-management-system-rho.vercel.app/admin`           |
+| database(Aiven)
 
 ## License
 
