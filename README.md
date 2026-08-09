@@ -12,7 +12,7 @@ Blog Management System คือเว็บแอปสำหรับจัด
 
 | Layer    | Technology                          |
 | -------- | ----------------------------------- |
-| Frontend | React 19, Vite, React Router        |
+| Frontend | React 19, Vite, React Router        | 
 | Backend  | Node.js, Express 5, JWT             |
 | Database | MySQL(XAMPP)                        |
 
