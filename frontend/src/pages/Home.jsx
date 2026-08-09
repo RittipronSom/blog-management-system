@@ -82,9 +82,12 @@ function Home() {
               <p className="blog-card__meta">
                 {blog.username} ·{" "}
                 {new Date(blog.created_at).toLocaleDateString("th-TH", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                    hour: "2-digit",
+                    minute: "2-digit",
+                    timeZone: "Asia/Bangkok",
                 })}
               </p>
 
