@@ -40,7 +40,9 @@ function Home() {
   );
 
   return (
+    
     <Layout>
+      <h1>My Blog</h1>
       <div className="page-header">
         <div>
           <h1>Stories</h1>
